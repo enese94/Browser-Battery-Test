@@ -64,7 +64,7 @@ def scroll_and_wait(duration=30):
     """Scrolls up and down for a specified duration."""
     start_time = time.time()
     while time.time() - start_time < duration:
-        scroll_amount = random.randint(-500, 500)
+        scroll_amount = random.randint(-2500, 2500)
         pyautogui.scroll(scroll_amount)
         time.sleep(0.1)
 
