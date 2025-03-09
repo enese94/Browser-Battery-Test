@@ -15,4 +15,4 @@ This Python script automates browser usage to test battery consumption.
 
 ## Author
 
-Your Name
+ENESE
