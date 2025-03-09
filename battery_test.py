@@ -2,8 +2,8 @@ import time
 import webbrowser
 import pyautogui
 import random
-
-webbrowser.register('vivaldi', None, webbrowser.BackgroundBrowser(r"C:\Users\Jorge Ribeiro\AppData\Local\Vivaldi\Application\vivaldi.exe"))
+## Change the name of the browser and add the executable on PATH
+webbrowser.register('vivaldi', None, webbrowser.BackgroundBrowser(r"PATH"))
 
 def scroll_and_wait(duration=30):
     """Scrolls up and down for a specified duration."""
